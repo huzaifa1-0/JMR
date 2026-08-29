@@ -1,0 +1,276 @@
+# Skills gazetteer.
+# Editable from Settings -> Skills taxonomy. Adding an entry here (or an alias)
+# immediately widens extraction coverage without any code change.
+#
+# Format:
+#   category:
+#     - Simple Name
+#     - name: Canonical Name
+#       aliases: [alt one, alt two]
+
+technical:
+  - name: Python
+    aliases: [python3, py]
+  - name: SQL
+    aliases: [structured query language, t-sql, tsql, pl/sql]
+  - JavaScript
+  - name: TypeScript
+    aliases: [ts]
+  - Java
+  - name: C#
+    aliases: [csharp, c sharp, .net, dotnet]
+  - C++
+  - Go
+  - Rust
+  - PHP
+  - Ruby
+  - Swift
+  - Kotlin
+  - name: R
+    aliases: []
+  - Scala
+  - MATLAB
+  - name: React
+    aliases: [react.js, reactjs]
+  - name: Angular
+    aliases: [angular.js, angularjs]
+  - name: Vue
+    aliases: [vue.js, vuejs]
+  - name: Node.js
+    aliases: [nodejs, node js]
+  - Django
+  - Flask
+  - FastAPI
+  - Spring Boot
+  - name: PostgreSQL
+    aliases: [postgres]
+  - MySQL
+  - MongoDB
+  - Redis
+  - Oracle
+  - name: Microsoft SQL Server
+    aliases: [sql server, mssql]
+  - Snowflake
+  - name: Amazon Web Services
+    aliases: [aws]
+  - name: Microsoft Azure
+    aliases: [azure]
+  - name: Google Cloud Platform
+    aliases: [gcp, google cloud]
+  - Docker
+  - name: Kubernetes
+    aliases: [k8s]
+  - Terraform
+  - Jenkins
+  - name: Continuous Integration
+    aliases: [ci/cd, cicd]
+  - Git
+  - Linux
+  - name: REST API
+    aliases: [rest apis, restful api]
+  - GraphQL
+  - name: Machine Learning
+    aliases: [ml]
+  - name: Artificial Intelligence
+    aliases: [ai]
+  - name: Natural Language Processing
+    aliases: [nlp]
+  - TensorFlow
+  - PyTorch
+  - name: Extract Transform Load
+    aliases: [etl, elt]
+  - Apache Spark
+  - Airflow
+  - Kafka
+
+tool:
+  - name: Microsoft Excel
+    aliases: [excel, ms excel, advanced excel]
+  - name: Microsoft Office
+    aliases: [ms office, office 365, microsoft 365]
+  - PowerPoint
+  - name: Power BI
+    aliases: [powerbi]
+  - Tableau
+  - Looker
+  - name: Google Sheets
+    aliases: [gsheets]
+  - name: Salesforce
+    aliases: [sfdc, salesforce crm]
+  - HubSpot
+  - name: SAP
+    aliases: []
+  - name: Oracle NetSuite
+    aliases: [netsuite]
+  - QuickBooks
+  - Workday
+  - name: Jira
+    aliases: [atlassian jira]
+  - Confluence
+  - Asana
+  - name: Monday.com
+    aliases: [monday]
+  - Slack
+  - Zendesk
+  - name: ServiceNow
+    aliases: []
+  - Zoho
+  - name: Microsoft Dynamics
+    aliases: [dynamics 365, ms dynamics]
+  - Sage
+  - Xero
+
+healthcare:
+  - name: Medical Billing
+    aliases: [medical biller]
+  - name: Medical Coding
+    aliases: [medical coder]
+  - name: Revenue Cycle Management
+    aliases: [rcm, revenue cycle]
+  - name: ICD-10
+    aliases: [icd10, icd 10]
+  - name: CPT Coding
+    aliases: [cpt, cpt codes]
+  - name: HCPCS
+    aliases: []
+  - name: Claims Processing
+    aliases: [claims submission, claim adjudication]
+  - name: Denial Management
+    aliases: [denials management, claim denials]
+  - name: Prior Authorization
+    aliases: [prior auth, pre-authorization, preauthorization]
+  - name: Accounts Receivable Follow-up
+    aliases: [ar follow-up, ar followup, a/r follow up]
+  - name: Eligibility Verification
+    aliases: [insurance verification, benefits verification]
+  - name: Charge Entry
+    aliases: []
+  - name: Payment Posting
+    aliases: [cash posting]
+  - name: Credentialing
+    aliases: [provider enrollment]
+  - name: HIPAA
+    aliases: [hipaa compliance]
+  - name: Electronic Health Records
+    aliases: [ehr, emr, electronic medical records]
+  - name: Epic
+    aliases: [epic systems]
+  - Cerner
+  - name: Athenahealth
+    aliases: [athena, athenaone]
+  - eClinicalWorks
+  - name: AdvancedMD
+    aliases: []
+  - Kareo
+  - NextGen
+  - name: Meditech
+    aliases: []
+  - name: Certified Professional Coder
+    aliases: [cpc]
+  - name: Clinical Documentation Improvement
+    aliases: [cdi]
+  - name: Utilization Review
+    aliases: [utilization management]
+  - Patient Scheduling
+  - name: Telehealth
+    aliases: [telemedicine]
+
+finance:
+  - name: Accounts Payable
+    aliases: [ap, a/p]
+  - name: Accounts Receivable
+    aliases: [ar, a/r]
+  - name: Generally Accepted Accounting Principles
+    aliases: [gaap]
+  - Bookkeeping
+  - Financial Reporting
+  - name: Financial Planning and Analysis
+    aliases: [fp&a, fpa]
+  - Budgeting
+  - Forecasting
+  - name: Month-End Close
+    aliases: [month end close, monthly close]
+  - Reconciliation
+  - Payroll
+  - Auditing
+  - Tax Preparation
+  - name: Certified Public Accountant
+    aliases: [cpa]
+  - Financial Modeling
+  - Cost Accounting
+
+sales_marketing:
+  - name: Lead Generation
+    aliases: [lead gen, demand generation]
+  - Cold Calling
+  - name: Business Development
+    aliases: [bizdev, bd]
+  - Account Management
+  - name: Customer Relationship Management
+    aliases: [crm]
+  - name: Search Engine Optimization
+    aliases: [seo]
+  - name: Pay Per Click
+    aliases: [ppc, google ads, paid search]
+  - name: Email Marketing
+    aliases: [email campaigns]
+  - Content Marketing
+  - Social Media Marketing
+  - name: Google Analytics
+    aliases: [ga4]
+  - Copywriting
+  - Market Research
+  - name: B2B Sales
+    aliases: [business to business sales]
+  - name: Software as a Service
+    aliases: [saas]
+  - Negotiation
+  - name: Sales Operations
+    aliases: [sales ops]
+
+operations:
+  - Project Management
+  - name: Agile
+    aliases: [agile methodology]
+  - name: Scrum
+    aliases: [scrum master]
+  - Kanban
+  - name: Six Sigma
+    aliases: [lean six sigma]
+  - name: Lean
+    aliases: [lean manufacturing]
+  - name: Standard Operating Procedures
+    aliases: [sop, sops]
+  - name: Key Performance Indicators
+    aliases: [kpi, kpis]
+  - Vendor Management
+  - Supply Chain
+  - Inventory Management
+  - name: Business Process Outsourcing
+    aliases: [bpo]
+  - name: Quality Assurance
+    aliases: [qa]
+  - Process Improvement
+  - name: Project Management Professional
+    aliases: [pmp]
+  - Change Management
+  - name: Customer Support
+    aliases: [customer service, client support]
+  - name: Technical Support
+    aliases: [tech support, helpdesk, help desk]
+  - Data Entry
+  - Transcription
+
+soft:
+  - Communication Skills
+  - Problem Solving
+  - Attention to Detail
+  - Time Management
+  - Teamwork
+  - Leadership
+  - Critical Thinking
+  - Adaptability
+  - Multitasking
+  - Organizational Skills
+  - name: Bilingual
+    aliases: [bilingual spanish, spanish speaking]

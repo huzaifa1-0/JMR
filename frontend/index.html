@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Market Research Platform</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">JR</div>
+      <div class="brand-text">
+        <strong>Job Market Research</strong>
+        <span>Local research platform</span>
+      </div>
+    </div>
+
+    <nav class="nav" id="nav">
+      <span class="nav-label">Collect</span>
+      <a href="#/dashboard" data-route="dashboard">Dashboard</a>
+      <a href="#/search"    data-route="search">Search &amp; collect</a>
+      <a href="#/saved"     data-route="saved">Saved searches</a>
+
+      <span class="nav-label">Analyse</span>
+      <a href="#/results"   data-route="results">Job results</a>
+      <a href="#/companies" data-route="companies">Companies</a>
+      <a href="#/analytics" data-route="analytics">Analytics</a>
+
+      <span class="nav-label">Work</span>
+      <a href="#/research"  data-route="research">Research</a>
+      <a href="#/exports"   data-route="exports">Exports</a>
+      <a href="#/settings"  data-route="settings">Settings</a>
+    </nav>
+
+    <div class="sidebar-foot">
+      <div class="compliance-note">
+        Collects only publicly accessible postings from permitted sources.
+        No access-control, CAPTCHA or rate-limit circumvention.
+      </div>
+    </div>
+  </aside>
+
+  <!-- ============ MAIN ============ -->
+  <div class="main">
+
+    <header class="topbar">
+      <div class="quick">
+        <input id="quickSearch" type="search"
+               placeholder="Search the corpus…  try:  (&quot;medical billing&quot; OR rcm) AND remote"
+               autocomplete="off">
+      </div>
+
+      <!-- Signature element: live budget for every source -->
+      <div class="meters" id="meters" title="Monthly API budget per source"></div>
+
+      <div class="collect-state" id="collectState">
+        <span class="dot idle"></span><span class="collect-label">Idle</span>
+      </div>
+    </header>
+
+    <main class="workspace" id="workspace">
+      <div class="loading">Loading…</div>
+    </main>
+  </div>
+</div>
+
+<!-- ============ SLIDE-OVER: JOB DETAIL ============ -->
+<div class="overlay" id="overlay" hidden></div>
+<section class="slideover" id="slideover" hidden aria-label="Job detail">
+  <div id="slideoverBody"></div>
+</section>
+
+<!-- ============ TOASTS ============ -->
+<div class="toasts" id="toasts" aria-live="polite"></div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+name,domain,industry,ats_platform,ats_board_token
+Stripe,stripe.com,Fintech,greenhouse,stripe
+Airbnb,airbnb.com,Travel,greenhouse,airbnb
+Databricks,databricks.com,Data Infrastructure,greenhouse,databricks
+Cloudflare,cloudflare.com,Infrastructure,greenhouse,cloudflare
+Robinhood,robinhood.com,Fintech,greenhouse,robinhood
+Instacart,instacart.com,E-commerce,greenhouse,instacart
+Reddit,reddit.com,Social Media,greenhouse,reddit
+DoorDash,doordash.com,Delivery,greenhouse,doordash
+Samsara,samsara.com,IoT,greenhouse,samsara
+Benchling,benchling.com,Biotech Software,greenhouse,benchling
+Included Health,includedhealth.com,Healthcare,greenhouse,includedhealth
+Oscar Health,hioscar.com,Health Insurance,greenhouse,oscarhealth
+Cedar,cedar.com,Healthcare RCM,greenhouse,cedar
+Netflix,netflix.com,Media,lever,netflix
+Palantir,palantir.com,Data Analytics,lever,palantir
+Plaid,plaid.com,Fintech,lever,plaid
+Brex,brex.com,Fintech,ashby,brex
+Ramp,ramp.com,Fintech,ashby,ramp
+Notion,notion.so,Productivity Software,ashby,notion
+Linear,linear.app,Productivity Software,ashby,linear
+Vanta,vanta.com,Compliance Software,ashby,vanta
+Deel,deel.com,HR Technology,ashby,deel
